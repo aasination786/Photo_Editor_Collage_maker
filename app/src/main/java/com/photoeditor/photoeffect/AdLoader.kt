@@ -21,6 +21,7 @@ class AdLoader {
 
     fun StartTimer() {
         try {
+            var name=""
             if (countDownTimer != null) {
                 countDownTimer!!.cancel()
                 countDownTimer = null
